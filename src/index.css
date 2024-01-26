@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.LeftNav{
+  display: block;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center; /* căn giữa theo chiều ngang */
+  align-items: center; /* căn giữa theo chiều dọc */
+}
+.LeftNav div{
+    width: 100%;
+}
+.LeftNav button{
+  width: 90%;
+}
